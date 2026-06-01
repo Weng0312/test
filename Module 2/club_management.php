@@ -3,7 +3,7 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-//comment
+//comment from test2
 $_SESSION['current_module'] = 'admin';
 
 // 1. Establish Database Connection matching admin dashboard
